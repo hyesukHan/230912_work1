@@ -1,0 +1,56 @@
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    margin: -1px;
+}
+.header .header-top .logo a,
+.header .header-bottom .search-area .btn-search{
+    background: url(./../images/icon_set_common.png) no-repeat;
+}
+.teal{color: #028ab6;}
+.orange{color: #d76000;}
+.blue{
+    color: rgb(63, 52, 212);
+}
+.brick{color: #d76000;}
+.purple{color: #9b64d3;}
+.green{color: #599100;}
+
+.btn-top{
+    display: block;
+    bottom: -100px;
+    position: fixed;
+    left: 50%;
+    margin-left: 600px;
+    width: 34px;
+    height: 34px;
+    background: url(./../images/btn_top.png);
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
+}
+.btn-top.show{
+    visibility: visible;
+    opacity: 1;
+    bottom:98px;
+}
+
+#skipNav{
+    position: absolute;
+}
+#skipNav a{
+    position: absolute;
+    width: 150px;
+    top: 0;
+    left: 0;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    transform: translateY(-100%);
+}
+#skipNav a:focus,#skipNav a:active{
+    transform: translateY(0);
+}
