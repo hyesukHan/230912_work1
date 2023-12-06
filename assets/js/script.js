@@ -140,7 +140,9 @@ $(function(){
             $('.navigation .btn-navi').removeClass('on').siblings('.sub').slideUp();
         }
     })
- 
+
+    //오늘하루 보지 않기
+    
     $layerPopup = document.querySelector('.top-banner');
     $btnLayerPopupClose = document.querySelector('.top-banner .btn-close');
     $btnLayerPopupTodayHide = document.getElementById('today-del-checkbox');
