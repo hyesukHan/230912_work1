@@ -876,11 +876,9 @@
 }
 .navigation .sub{
     position: absolute;
-    bottom:  50px;
+    bottom:  53px;
     left: 0;
     width: 100%;
-   
-
     z-index: 101;
     display: none;
 }
