@@ -41,7 +41,11 @@
 .header .header-top .gnb .navi-item:hover{
     color: #2292e9;
 }
+.header .header-top .login-area{
+    display: flex;
+}
 .header .header-top .login-area a{
+    display: block;
     padding: 0 8px;
     height: 48px;
     line-height: 48px;
