@@ -592,7 +592,10 @@
 .sc-info .info-list .info-item a .admin{
     background: url(./../images/info_icon/icon_work.png);
 }
-
+.sc-news{
+    padding: 20px 0 30px;
+    position: relative;
+}
 .sc-news .inner{
     padding: 20px 0 30px;
     position: relative;
