@@ -1,3 +1,13 @@
+.wrapper{
+    min-width: 1200px;
+}
+
+.inner{
+    min-width: 1152px;
+    width: 1152px;
+    margin: 0 auto;
+}
+
 .blind{
     position: absolute;
     width: 1px;
