@@ -112,10 +112,11 @@
 .header .header-bottom .search-area input{
     width: calc(100% - 42px);
     border: 0;
-    padding: 0 10px;
+    padding: 0 30px 0 10px;
     height: 36px;
     line-height: 38px;
     appearance: none;
+    outline:none;
 }
 .header .header-bottom .search-area input::placeholder{
     font-size: 14px;
